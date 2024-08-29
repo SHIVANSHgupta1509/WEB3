@@ -2,3 +2,13 @@ Hashing se pre image nhi but encryption se hota
 SHA-256 is hashing algo which gives output as 256 bits
 bit for our convenience we output encoding as hex or anything 
 so hex means ki ab 16 tak numbers so 256/4 bits aaegi ans me.
+
+what happens is when i need to do some transaction i send this to a bitcoin node and it re
+recieves bunch of such transactions and what it does is it bounds all transactions
+and then send them to do some proof of work by finding nounce and brodcast ot to every bitcoin node
+
+How it block-chain secure
+every block take the data and prev hash corr to which it finds a nonce, and every block does it, so if nonce for 
+1 block is changed every fwd block will be corrupted as prev blocks hash will changed
+so if i want to corrupt a blockchain i need to mine every block again but till then 
+chain would also have moved fwd.
