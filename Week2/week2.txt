@@ -1,0 +1,15 @@
+Uint8Array fayda is ki yeh less space always 1 byte for a number and constraints value
+to be b/w 0-255 so hr koi ko hum isme restrict kr dete so agr large number hai uska
+bhi last 8 bits hi leta so 1 byte space hi vrna depending on machine it takes space
+as 32 or 64.
+
+encodings means ki simply kaise encode kr rhe, ascii me hum 8 bytes ka encode krte 
+so 0-255 values and corr hoti values, //ly hex me 0-15 so 16 values so 4 ke grp me 
+krte so 0-9,A-F values hoti.
+agr hum simple lang likhte so it is ascii that is 8 bytes and convert to hex so we get 
+double len as hex wants 4 bits and ascii has 8 bytes for each.
+
+//ly public keys are 58 base encoded
+58 encoding is A-Z (excluse I,O), a-z(exclude l), 1-9
+
+hashing always give same length
