@@ -1,0 +1,4 @@
+Hashing se pre image nhi but encryption se hota
+SHA-256 is hashing algo which gives output as 256 bits
+bit for our convenience we output encoding as hex or anything 
+so hex means ki ab 16 tak numbers so 256/4 bits aaegi ans me.
